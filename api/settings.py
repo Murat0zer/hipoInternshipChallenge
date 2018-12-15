@@ -96,8 +96,8 @@ DATABASES = {
 # DATABASES['default'].update(db_from_env)
 
 
-# DATABASE_URL = []
-#
+DATABASE_URL = [os.environ['DATABASE_URL']]
+
 # conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 
